@@ -1,0 +1,174 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.image-container {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.thumbnail-container{
+    padding: 10px;
+    text-align: center;
+}
+.main-image-1 {
+    max-width: 100%;
+    height: auto;
+}
+
+.thumb-image {
+    width: 20%; 
+    margin: 5px;
+}
+
+.sideContent {
+    max-width: 100%;
+}
+
+.vendor{
+    color: rgb(192, 182, 182);
+}
+.title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.price-container{
+    display: flex;
+}
+.price{
+    color: rgb(111, 111, 174);
+    font-weight: bold;
+
+}
+.discount{
+    margin: 10px;
+    margin-top: 25px;
+    color: rgb(214, 59, 59);
+    font-size: 23px;
+}
+.compare-price{
+    color: rgb(192, 182, 182);
+    font-size: 20px;
+    text-decoration: line-through;
+    margin-top: 0px;
+}
+.color-items{
+    height: 50px;
+    width: 50px;
+    background-color:black;
+    margin: 10px;
+}
+.color-container{
+    display: flex;
+}
+.size-container{
+    list-style-type: none;
+    display: flex;
+   
+}
+.icon-tick{
+    color: white;
+    font-size: 25px;
+    margin-top: 5px;
+}
+.icon-container{
+    border: 5px solid #fff;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+}
+.color-items-yellow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 60px;
+    
+}
+.color-des{
+    color: rgb(192, 182, 182); 
+}
+.size-des{
+    color: rgb(192, 182, 182);
+}
+.size-list-item{
+    background-color: rgb(227, 219, 219);
+    margin: 10px;
+    border-radius: 2px;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+}
+.label-text{
+    font-size: 12px;
+    text-align: center;
+    color: rgb(144, 138, 138);
+}
+.cart-container{
+    display: flex;
+    
+}
+.cart-value-container{
+    color: rgb(111, 111, 174);
+    font-size: 15px;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+.add-to-cart{
+    background-color: rgb(111, 111, 174);
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.icon{
+    margin: 10px;
+    margin-top: 15px;
+    color: #fff;
+}
+.add-to-cart-des{
+    color: #fff;
+    
+}
+.description{
+    color: rgb(184, 182, 182);
+    width: 500px;
+    font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        flex-direction: row; 
+    }
+
+   .image-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+   }
+    .main-image-1 {
+        max-width: 100%; 
+    }
+    .thumbnail-container{
+        text-align: center;
+    }
+
+    .thumb-image {
+        width: 10%; 
+        margin: 10px;
+    }
+
+    .sideContent {
+        max-width: 40%; 
+    }
+}
+
+.hr{
+    color: gray;
+}
